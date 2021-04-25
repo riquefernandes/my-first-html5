@@ -39,6 +39,21 @@
             </script>
 
         </div>
+        <br>
+        <label for="experiencia"><strong> experiencia </strong></label>
+        <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        <script>
+            var txt;
+            var person = prompt("Qual seu nome?");
+            if (person == null || person == "") {
+                txt = "Não pode ficar em branco.";
+            } else {
+                txt = "Oi " + person + "! Ouça minha musica favorita de arcade fire!";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        </script>
+        </div>
+
     </section>
 </body>
 
